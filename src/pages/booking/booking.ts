@@ -3,22 +3,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-booking',
+  templateUrl: 'booking.html',
 })
-export class HomePage {
-  pushPage: string = 'BookingPage';
+export class BookingPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
-  }
-
-  pushPageUp(): void {
-    this.navCtrl.push(this.pushPage);
+    console.log('ionViewDidLoad BookingPage');
   }
 
 }
